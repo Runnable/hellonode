@@ -3,8 +3,8 @@ var app = express();
 
 app.get('/', function(req, res){
     console.log('hit route -----')
-    res.send('_');
+    res.send('hello world');
 });
 
 console.log('started')
-app.listen(80);
+app.listen(3000);
