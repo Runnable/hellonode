@@ -3,7 +3,7 @@ var app = express();
 
 app.get('/', function(req, res){
     console.log('hit route -----')
-    res.send('hello kahn');
+    res.send('hello khanton');
 });
 
 console.log('started')
